@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Abhaya+Libre&family=Merriweather&family=Alegreya&family=Montserrat&family=Aleo&family=Muli&family=Arapey&family=Nunito&family=Asap+Condensed&family=Assistant&family=Open+Sans&family=Barlow&family=Oswald&family=Bitter&family=Poppins&family=Brawler&family=Roboto&family=Caladea&family=Rokkitt&family=Carme&family=Rubik&family=Raleway&family=Helvetica&family=Quicksand&family=Pacifico&family=Abril+Fatface&family=Dosis&family=Inconsolata&family=Roboto&family=Mirza&family=Arial&display=swap');
+
+#toolbar-container .ql-font span[data-label="Lato"]::before {
+    font-family: "Lato";
+}
+
+#toolbar-container .ql-font span[data-label="Abhaya Libre"]::before {
+    font-family: "Abhaya Libre";
+}
+
+#toolbar-container .ql-font span[data-label="Merriweather"]::before {
+    font-family: "Merriweather";
+}
+
+#toolbar-container .ql-font span[data-label="Alegreya"]::before {
+    font-family: "Alegreya";
+}
+
+#toolbar-container .ql-font span[data-label="Montserrat"]::before {
+    font-family: "Montserrat";
+}
+
+#toolbar-container .ql-font span[data-label="Aleo"]::before {
+    font-family: "Aleo";
+}
+
+#toolbar-container .ql-font span[data-label="Muli"]::before {
+    font-family: "Muli";
+}
+
+#toolbar-container .ql-font span[data-label="Arapey"]::before {
+    font-family: "Arapey";
+}
+
+#toolbar-container .ql-font span[data-label="Nunito"]::before {
+    font-family: "Nunito";
+}
+
+#toolbar-container .ql-font span[data-label="Asap Condensed"]::before {
+    font-family: "Asap Condensed";
+}
+
+#toolbar-container .ql-font span[data-label="Assistant"]::before {
+    font-family: "Assistant";
+}
+
+#toolbar-container .ql-font span[data-label="Open Sans"]::before {
+    font-family: "Open Sans";
+}
+
+#toolbar-container .ql-font span[data-label="Barlow"]::before {
+    font-family: "Barlow";
+}
+
+#toolbar-container .ql-font span[data-label="Oswald"]::before {
+    font-family: "Oswald";
+}
+
+#toolbar-container .ql-font span[data-label="Bitter"]::before {
+    font-family: "Bitter";
+}
+
+#toolbar-container .ql-font span[data-label="Poppins"]::before {
+    font-family: "Poppins";
+}
+
+#toolbar-container .ql-font span[data-label="Brawler"]::before {
+    font-family: "Brawler";
+}
+
+#toolbar-container .ql-font span[data-label="Roboto"]::before {
+    font-family: "Roboto";
+}
+
+#toolbar-container .ql-font span[data-label="Caladea"]::before {
+    font-family: "Caladea";
+}
+
+#toolbar-container .ql-font span[data-label="Rokkitt"]::before {
+    font-family: "Rokkitt";
+}
+
+#toolbar-container .ql-font span[data-label="Carme"]::before {
+    font-family: "Carme";
+}
+
+#toolbar-container .ql-font span[data-label="Rubik"]::before {
+    font-family: "Rubik";
+}
+
+#toolbar-container .ql-font span[data-label="Raleway"]::before {
+    font-family: "Raleway";
+}
+
+#toolbar-container .ql-font span[data-label="Helvetica"]::before {
+    font-family: "Helvetica";
+}
+
+#toolbar-container .ql-font span[data-label="Quicksand"]::before {
+    font-family: "Quicksand";
+}
+
+#toolbar-container .ql-font span[data-label="Pacifico"]::before {
+    font-family: "Pacifico";
+}
+
+#toolbar-container .ql-font span[data-label="Abril Fatface"]::before {
+    font-family: "Abril Fatface";
+}
+
+#toolbar-container .ql-font span[data-label="Dosis"]::before {
+    font-family: "Dosis";
+}
+
+#toolbar-container .ql-font span[data-label="Sans Serif"]::before {
+    font-family: "Sans Serif";
+}
+
+#toolbar-container .ql-font span[data-label="Inconsolata"]::before {
+    font-family: "Inconsolata";
+}
+
+#toolbar-container .ql-font span[data-label="Roboto"]::before {
+    font-family: "Roboto";
+}
+
+#toolbar-container .ql-font span[data-label="Mirza"]::before {
+    font-family: "Mirza";
+}
+
+#toolbar-container .ql-font span[data-label="Arial"]::before {
+    font-family: "Arial";
+}
+
+#toolbar-container .ql-size span[data-label="ES"]::before {
+    font-size: 1em;
+}
+
+#toolbar-container .ql-size span[data-label="S"]::before {
+    font-size: 1em;
+}
+
+#toolbar-container .ql-size span[data-label="M"]::before {
+    font-size: 1em;
+}
+
+#toolbar-container .ql-size span[data-label="L"]::before {
+    font-size: 1em;
+}
+
+#toolbar-container .ql-size span[data-label="XL"]::before {
+    font-size: 1em;
+}
+
+/* Set content font-families */
+
+.ql-font-inconsolata {
+    font-family: "Inconsolata";
+}
+
+.ql-font-roboto {
+    font-family: "Roboto";
+}
+
+.ql-font-mirza {
+    font-family: "Mirza";
+}
+
+.ql-font-arial {
+    font-family: "Arial";
+}
+
+/* Set content font-families */
+.ql-font-lato {
+    font-family: "Lato";
+}
+
+.ql-font-abhaya-libre {
+    font-family: "Abhaya Libre" !important;
+}
+
+.ql-font-merriweather {
+    font-family: "Merriweather";
+}
+
+.ql-font-alegreya {
+    font-family: "Alegreya";
+}
+
+.ql-font-montserrat {
+    font-family: "Montserrat";
+}
+
+.ql-font-aleo {
+    font-family: "Aleo";
+}
+
+.ql-font-muli {
+    font-family: "Muli";
+}
+
+.ql-font-arapey {
+    font-family: "Arapey";
+}
+
+.ql-font-nunito {
+    font-family: "Nunito";
+}
+
+.ql-font-asap-condensed {
+    font-family: "Asap Condensed" !important;
+}
+
+.ql-font-assistant {
+    font-family: "Assistant";
+}
+
+.ql-font-open-sans {
+    font-family: "Open Sans";
+}
+
+.ql-font-barlow {
+    font-family: "Barlow";
+}
+
+.ql-font-oswald {
+    font-family: "Oswald";
+}
+
+.ql-font-bitter {
+    font-family: "Bitter";
+}
+
+.ql-font-poppins {
+    font-family: "Poppins";
+}
+
+.ql-font-brawler {
+    font-family: "Brawler";
+}
+
+.ql-font-roboto {
+    font-family: "Roboto";
+}
+
+.ql-font-caladea {
+    font-family: "Caladea";
+}
+
+.ql-font-rokkitt {
+    font-family: "Rokkitt";
+}
+
+.ql-font-carme {
+    font-family: "Carme";
+}
+
+.ql-font-rubik {
+    font-family: "Rubik";
+}
+
+.ql-font-raleway {
+    font-family: "Raleway";
+}
+
+.ql-font-helvetica {
+    font-family: "Helvetica";
+}
+
+.ql-font-quicksand {
+    font-family: "Quicksand";
+}
+
+.ql-font-pacifico {
+    font-family: "Pacifico";
+}
+
+.ql-font-abril-fatface {
+    font-family: "Abril Fatface" !important;
+}
+
+.ql-font-dosis {
+    font-family: "Dosis";
+}
+
+.ql-size-extra-small {
+    font-size: 0.5rem;
+}
+
+.ql-size-small {
+    font-size: 1rem;
+}
+
+.ql-size-medium {
+    font-size: 1.5rem;
+}
+
+.ql-size-large1 {
+    font-size: 2.5rem;
+}
+
+.ql-size-extra-large {
+    font-size: 3rem;
+}
+
+.ql-toolbar {
+    border: 0px;
+}
+
+.ql-snow {
+    border: 0px;
+}
+
+.ql-size-8px {
+    font-size: 8px;
+}
+
+.ql-size-10px {
+    font-size: 10px;
+}
+
+.ql-size-12px {
+    font-size: 12px;
+}
+
+.ql-size-14px {
+    font-size: 14px;
+}
+
+.ql-size-16px {
+    font-size: 16px;
+}
+
+.ql-size-18px {
+    font-size: 18px;
+}
+
+.ql-size-20px {
+    font-size: 20px;
+}
+
+.ql-size-24px {
+    font-size: 24px;
+}
+
+.ql-size-28px {
+    font-size: 28px;
+}
+
+.ql-size-32px {
+    font-size: 32px;
+}
+
+.ql-size-36px {
+    font-size: 32px;
+}
+
+.ql-size-40px {
+    font-size: 40px;
+}
+
+.ql-size-48px {
+    font-size: 48px;
+}
+
+.ql-size-56px {
+    font-size: 56px;
+}
+
+.ql-size-64px {
+    font-size: 64px;
+}
+
+.ql-size-72px {
+    font-size: 72px;
+}
+
+.ql-size-80px {
+    font-size: 80px;
+}
+
+.ql-size-88px {
+    font-size: 88px;
+}
+
+.ql-size-96px {
+    font-size: 96px;
+}
+
+.ql-size-104px {
+    font-size: 104px;
+}
+
+.ql-size-112px {
+    font-size: 112px;
+}
+
+.ql-size-120px {
+    font-size: 120px;
+}
+
+.ql-size-128px {
+    font-size: 128px;
+}
+
+.quillToolbar {
+    border: none;
+    padding: 4px;
+}
+
+.ql-container {
+    /* padding: 2px; */
+    border: 0px solid #ffffff;
+    border-radius: 4px;
+    max-height: 20vh;
+    overflow-y: auto;
+}
+
+.ql-align-left {
+    text-align: left;
+}
+
+.ql-align-center {
+    text-align: center;
+}
+
+.ql-align-right {
+    text-align: right;
+}
+
+.select-style {
+    max-height: 500px;
+    overflow-y: auto;
+}
