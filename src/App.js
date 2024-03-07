@@ -3,12 +3,27 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CreateEditBlog from './Components/CreateEditPage/CreateEditBlog';
 import NavbarBootStrap from './Components/OtherComponents/BootstrapComponents/NavbarBootStrap';
+import BlogDisplay from './Components/BlogPage/BlogDisplay';
+import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
+  const [blogImage,setBlogImage] = useState()
+  const [blogData,setBlogData] = useState('')
+  
   return (
     <>
-      <NavbarBootStrap/>
-      <CreateEditBlog/>
+    {/* {console.log('blogData',blogData)}
+    {console.log('blogI',blogImage)} */}
+    <NavbarBootStrap/>
+    {/* <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<BlogDisplay blogImage={blogImage} blogData={blogData}/>} />
+          <Route path="/create" element={<CreateEditBlog setBlogImage={setBlogImage} setBlogData={setBlogData}/>} />
+        </Routes>
+    </BrowserRouter> */}
+    <BlogDisplay blogImage={blogImage} blogData={blogData}/>
+    <CreateEditBlog setBlogImage={setBlogImage} setBlogData={setBlogData}/>
     </>
   );
 }

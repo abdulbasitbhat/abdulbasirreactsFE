@@ -412,7 +412,7 @@
     /* padding: 2px; */
     border: 0px solid #ffffff;
     border-radius: 4px;
-    max-height: 20vh;
+    max-height: 40vh;
     overflow-y: auto;
 }
 
@@ -431,4 +431,17 @@
 .select-style {
     max-height: 500px;
     overflow-y: auto;
+}
+
+.ql-syntax {
+    background-color: #f4f4f4; /* Background color */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 5px; /* Border radius */
+    padding: 10px; /* Padding */
+    margin: 10px 0; /* Margin */
+    overflow-x: auto; /* Allow horizontal scroll */
+    font-family: 'Courier New', Courier, monospace; /* Font */
+    font-size: 14px; /* Font size */
+    line-height: 1.4; /* Line height */
+    white-space: pre-wrap; /* Preserve line breaks */
 }
