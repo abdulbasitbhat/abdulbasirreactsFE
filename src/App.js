@@ -22,7 +22,7 @@ function App() {
           <Route path="/create" element={<CreateEditBlog setBlogImage={setBlogImage} setBlogData={setBlogData}/>} />
         </Routes>
     </BrowserRouter> */}
-    <BlogDisplay blogImage={blogImage} blogData={blogData}/>
+    {/* <BlogDisplay blogImage={blogImage} blogData={blogData}/> */}
     <CreateEditBlog setBlogImage={setBlogImage} setBlogData={setBlogData}/>
     </>
   );

@@ -412,7 +412,7 @@
     /* padding: 2px; */
     border: 0px solid #ffffff;
     border-radius: 4px;
-    max-height: 40vh;
+    max-height: 60vh;
     overflow-y: auto;
 }
 
@@ -444,4 +444,16 @@
     font-size: 14px; /* Font size */
     line-height: 1.4; /* Line height */
     white-space: pre-wrap; /* Preserve line breaks */
+}
+
+img{
+    width: 100%; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px;
+}
+
+.logo-style{
+    width:'5vh';
+    margin-right:'2vh';
 }

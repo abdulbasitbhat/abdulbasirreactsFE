@@ -11,10 +11,10 @@ const DisplayTextQuill = (props) => {
     }
     },[props.image])
     return (
-        <div style={{marginInline:'40vh' }}>
+        <div style={{marginInline: '20%', maxWidth: '100%'}}>
             <div>
                 {image &&
-                <img src={image} style={{width:'120vh',marginBottom:'10px'}}/>
+                <img src={image} style={{width: '100%', maxWidth: '100%', height: 'auto', marginBottom: '10px' }}/>
                 }
             </div>
             <div dangerouslySetInnerHTML={{ __html: jsxString }} />

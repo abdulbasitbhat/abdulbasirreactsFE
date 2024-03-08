@@ -2,15 +2,16 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../Resources/logo.png';
+import MountainTechLogo from '../../Resources/MountainTechLogo.png'
 import CreateEditBlog from '../../CreateEditPage/CreateBlog';
+import '../../CreateEditPage/TextEditor/fontStyles.css'
 
 function NavbarBootStrap() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <img src={logo} style={{width:'5vh',marginRight:'2vh'}}></img>
-        <Navbar.Brand href="#home">Abdul Basit Reacts</Navbar.Brand>
+        <img src={MountainTechLogo} className='logo-style' style={{width:'7vh',marginRight:'1vh'}}></img>
+        <Navbar.Brand href="#home">MountainTech</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

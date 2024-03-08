@@ -25,6 +25,7 @@ const CreateBlog = (props) =>{
           <UploadImages setImageFile={setImageFile}/>  
          </div>
          <div className='w3-margin'>
+            <h4 className='w3-center'>Preview</h4>
             <DisplayTextQuill data={blogData} image={imageFile}/>
          </div>
         </>

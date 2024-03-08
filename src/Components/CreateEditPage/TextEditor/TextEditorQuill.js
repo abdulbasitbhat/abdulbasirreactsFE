@@ -10,6 +10,7 @@ const TextEditorQuill = (props) => {
     const handleChange = (value) => {
         setState({ value });
         props.setBlogData(value)
+        // console.log('value',value)
     };
     const quillRef = useRef();
     return (

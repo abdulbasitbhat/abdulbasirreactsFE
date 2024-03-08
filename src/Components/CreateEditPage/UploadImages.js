@@ -7,8 +7,10 @@ const UploadImages = (props) => {
     }
     return(
         <>
-          <div>
-            <input type="file" onChange={handleFileChange}/>
+          <div className="w3-card w3-padding w3-round-medium">
+          <label htmlFor="fileInput">Upload a Banner</label>
+          <br></br>
+            <input type="file" id="fileInput" onChange={handleFileChange}/>
           </div>  
         </>
     )
