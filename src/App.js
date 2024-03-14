@@ -6,6 +6,7 @@ import NavbarBootStrap from './Components/OtherComponents/BootstrapComponents/Na
 import BlogDisplay from './Components/BlogPage/BlogDisplay';
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import BlogCards from './Components/MainPage/BlogCards';
 
 function App() {
   const [blogImage,setBlogImage] = useState()
@@ -22,6 +23,7 @@ function App() {
           <Route path="/create" element={<CreateEditBlog setBlogImage={setBlogImage} setBlogData={setBlogData}/>} />
         </Routes>
     </BrowserRouter> */}
+    {/* <BlogCards/> */}
     {/* <BlogDisplay blogImage={blogImage} blogData={blogData}/> */}
     <CreateEditBlog setBlogImage={setBlogImage} setBlogData={setBlogData}/>
     </>
